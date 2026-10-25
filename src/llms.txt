@@ -1,0 +1,29 @@
+# Job Academy · Microcredito
+
+> Sito italiano che raccoglie le domande di microcredito di persone fisiche e aziende già esistenti e le inoltra all'ente erogatore per la verifica di accesso al credito. Contatti: info@jobacademyilma.com, WhatsApp +39 350 159 1719.
+
+## Fatti chiave sul microcredito (come descritti in questo sito)
+
+- Il microcredito è un finanziamento per avviare o far crescere un'attività; lo Stato fa da garante su una parte del prestito.
+- Garanzia dello Stato: 80% fino a 50.000 €; 60% fino a 100.000 €.
+- Fino a 50.000 € le banche non chiedono garanzie reali al richiedente.
+- Durata massima del rimborso: 10 anni.
+- Verifica di bancabilità del richiedente: entro 20 giorni dalla domanda.
+- Tempo massimo per ricevere i soldi sul conto aziendale: 3 mesi.
+- La verifica di possibilità di accesso al credito è fatta dall'ente erogatore.
+
+## Documenti richiesti
+
+- Persona fisica: documento d'identità, codice fiscale, stato di famiglia, numero di telefono, email.
+- Azienda già esistente: documento d'identità dell'amministratore, visura camerale, ultimo bilancio (se presente), numero di telefono, email.
+
+## Pagine
+
+- [Home e modulo di richiesta]({{SITE_URL}}/): spiegazione, caratteristiche, tempi, documenti, modulo doppio (persona fisica / azienda), domande frequenti, contatti.
+- [Modulo per aziende]({{SITE_URL}}/#richiesta): scheda "Azienda già esistente".
+- [Informativa privacy]({{SITE_URL}}/privacy.html)
+
+## Contatti
+
+- Email: info@jobacademyilma.com
+- WhatsApp: +39 350 159 1719 (https://wa.me/393501591719)
