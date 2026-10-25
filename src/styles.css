@@ -170,3 +170,12 @@ label:not(.check) { display: block; }
 label:not(.check) > input, label:not(.check) > textarea { display: block; margin-top: 6px; }
 .file small { margin-top: 6px; }
 .brand-sub { margin-left: -10px; white-space: pre; }
+.nums6 { grid-template-columns: repeat(3, 1fr); row-gap: 40px; }
+@media (max-width: 860px) { .nums6 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .nums6 { grid-template-columns: 1fr; } }
+.notice { background: #fff; border-left: 4px solid var(--color-accent-strong); border-radius: 12px; padding: 14px 18px; max-width: 70ch; }
+.gdpr { display: grid; gap: 14px; background: var(--color-surface); border-radius: 16px; padding: 18px; font-size: 14px; }
+.gdpr p { margin: 0; color: var(--color-text-muted); }
+.gdpr .check { font-size: 15px; }
+select { appearance: auto; }
+label:not(.check) > select { display: block; margin-top: 6px; }

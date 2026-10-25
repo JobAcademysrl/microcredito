@@ -34,6 +34,9 @@
       if (bad) { e.preventDefault(); err.textContent = 'Il file "' + bad + '" non è PDF, JPG o PNG.'; return; }
       if (total > MAX) { e.preventDefault(); err.textContent = 'Gli allegati pesano ' + (total / 1048576).toFixed(1) + ' MB: il massimo è 10 MB. Riduci o comprimi i file.'; return; }
       err.textContent = '';
+      // record when consent was given (sent with the request as proof of consent)
+      var ct = f.querySelector('[data-consent-time]');
+      if (ct) ct.value = new Date().toLocaleString('it-IT', { timeZone: 'Europe/Rome' }) + ' (ora italiana)';
       var b = f.querySelector('button[type=submit]');
       b.disabled = true; b.textContent = 'Invio in corso…';
     });

@@ -1,0 +1,29 @@
+# Job Academy srl · Sportello informativo sul microcredito
+
+> Job Academy srl (Via Stefano Canzio 50r, Genova, P.IVA 03071340990) è uno sportello informativo sul microcredito: spiega le regole e orienta persone fisiche e aziende. Non raccoglie domande di finanziamento e non concede credito. Contatti: info@jobacademyilma.com, WhatsApp +39 350 159 1719. Sito aziendale: https://www.jobacademysrl.com/
+
+## Fatti chiave sul microcredito (come descritti in questo sito)
+
+- Il microcredito è un finanziamento per avviare o far crescere un'attività; lo Stato fa da garante su una parte del prestito.
+- Importo massimo: 75.000 € per imprese che non sono SRL (ditte individuali, professionisti, società di persone); 100.000 € per le SRL.
+- Garanzia dello Stato: 80% fino a 50.000 €; 60% fino a 100.000 €.
+- Fino a 50.000 € le banche non chiedono garanzie reali al richiedente.
+- Durata massima del rimborso: 10 anni.
+- Verifica di bancabilità del richiedente: entro 20 giorni dalla domanda presentata all'ente erogatore.
+- Tempo massimo per ricevere i soldi sul conto aziendale: 3 mesi.
+- La verifica di possibilità di accesso al credito è fatta dall'ente erogatore.
+
+## Documenti utili per la domanda all'ente erogatore
+
+- Persona fisica: documento d'identità, codice fiscale, stato di famiglia, numero di telefono, email.
+- Azienda già esistente: documento d'identità dell'amministratore, visura camerale, ultimo bilancio (se presente), numero di telefono, email.
+
+## Pagine
+
+- [Home](https://jobacademysrl.github.io/microcredito/): cos'è il microcredito, caratteristiche, tempi, documenti, modulo per chiedere informazioni (persona fisica / azienda), domande frequenti, contatti.
+- [Informativa privacy](https://jobacademysrl.github.io/microcredito/privacy.html)
+
+## Contatti
+
+- Email: info@jobacademyilma.com
+- WhatsApp: +39 350 159 1719 (https://wa.me/393501591719)

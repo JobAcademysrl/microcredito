@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Microcredito fino a 100.000 € con garanzia dello Stato | Job Academy</title>
-<meta name="description" content="Microcredito per persone e imprese: lo Stato garantisce l'80% fino a 50.000 € e il 60% fino a 100.000 €. Fino a 10 anni per rimborsare, verifica di bancabilità entro 20 giorni. Richiedi la verifica online.">
+<title>Microcredito: sportello informativo | Job Academy srl, Genova</title>
+<meta name="description" content="Sportello informativo sul microcredito: fino a 75.000 € per ditte individuali, professionisti e società di persone, fino a 100.000 € per le SRL. Garanzia dello Stato all'80% fino a 50.000 €, rimborso in 10 anni. Chiedi informazioni gratis.">
 <link rel="canonical" href="{{SITE_URL}}/">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta name="theme-color" content="#000000">
@@ -12,9 +12,9 @@
 <link rel="alternate" type="text/plain" href="{{SITE_URL}}/llms.txt" title="Riassunto per modelli linguistici">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="it_IT">
-<meta property="og:site_name" content="Job Academy · Microcredito">
-<meta property="og:title" content="Microcredito fino a 100.000 € con garanzia dello Stato">
-<meta property="og:description" content="Garanzia dello Stato all'80% fino a 50.000 € e al 60% fino a 100.000 €. Fino a 10 anni per rimborsare. Verifica di bancabilità entro 20 giorni.">
+<meta property="og:site_name" content="Job Academy srl · Sportello microcredito">
+<meta property="og:title" content="Microcredito fino a 100.000 € con garanzia dello Stato: sportello informativo">
+<meta property="og:description" content="Fino a 75.000 € (non SRL) o 100.000 € (SRL). Garanzia dello Stato all'80% fino a 50.000 €. Fino a 10 anni per rimborsare. Chiedi informazioni.">
 <meta property="og:url" content="{{SITE_URL}}/">
 <meta property="og:image" content="{{SITE_URL}}/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -27,10 +27,14 @@
       "@type": "Organization",
       "@id": "{{SITE_URL}}/#org",
       "name": "Job Academy",
-      "url": "{{SITE_URL}}/",
+      "legalName": "Job Academy srl",
+      "vatID": "IT03071340990",
+      "url": "https://www.jobacademysrl.com/",
+      "sameAs": ["https://www.jobacademysrl.com/"],
       "email": "info@jobacademyilma.com",
       "telephone": "+39 350 159 1719",
       "logo": "{{SITE_URL}}/favicon.svg",
+      "address": { "@type": "PostalAddress", "streetAddress": "Via Stefano Canzio 50r", "addressLocality": "Genova", "addressRegion": "GE", "addressCountry": "IT" },
       "contactPoint": [
         { "@type": "ContactPoint", "contactType": "customer service", "email": "info@jobacademyilma.com", "telephone": "+39 350 159 1719", "availableLanguage": ["it"], "areaServed": "IT" }
       ]
@@ -39,35 +43,36 @@
       "@type": "WebSite",
       "@id": "{{SITE_URL}}/#website",
       "url": "{{SITE_URL}}/",
-      "name": "Job Academy · Microcredito",
+      "name": "Job Academy srl · Sportello informativo microcredito",
       "inLanguage": "it-IT",
       "publisher": { "@id": "{{SITE_URL}}/#org" }
     },
     {
       "@type": "Service",
-      "@id": "{{SITE_URL}}/#microcredito",
-      "name": "Assistenza alla richiesta di microcredito",
-      "serviceType": "Microcredito con garanzia dello Stato",
+      "@id": "{{SITE_URL}}/#sportello",
+      "name": "Sportello informativo sul microcredito",
+      "serviceType": "Informazioni sul microcredito con garanzia dello Stato",
       "provider": { "@id": "{{SITE_URL}}/#org" },
       "areaServed": { "@type": "Country", "name": "Italia" },
+      "isAccessibleForFree": true,
       "audience": [
         { "@type": "Audience", "audienceType": "Persone fisiche che vogliono avviare un'attività" },
         { "@type": "BusinessAudience", "audienceType": "Imprese già esistenti" }
       ],
-      "description": "Raccogliamo la domanda e i documenti per la verifica di accesso al microcredito, svolta dall'ente erogatore. Garanzia dello Stato all'80% fino a 50.000 € e al 60% fino a 100.000 €; rimborso fino a 10 anni; verifica di bancabilità entro 20 giorni; accredito sul conto aziendale entro 3 mesi."
+      "description": "Informazioni sul microcredito: fino a 75.000 € per imprese non costituite come SRL e fino a 100.000 € per le SRL; garanzia dello Stato all'80% fino a 50.000 € e al 60% fino a 100.000 €; fino a 10 anni per rimborsare; verifica di bancabilità entro 20 giorni dalla domanda all'ente erogatore; accredito sul conto aziendale entro 3 mesi. Lo sportello informa e orienta: non raccoglie domande di finanziamento."
     },
     {
       "@type": "FAQPage",
       "@id": "{{SITE_URL}}/#faq",
       "mainEntity": [
         { "@type": "Question", "name": "Che cos'è il microcredito?", "acceptedAnswer": { "@type": "Answer", "text": "È un finanziamento per chi vuole avviare o far crescere un'attività. Lo Stato fa da garante su una parte del prestito, così la banca può concederlo anche a chi non ha garanzie proprie." } },
+        { "@type": "Question", "name": "Quanto posso chiedere con il microcredito?", "acceptedAnswer": { "@type": "Answer", "text": "Fino a 75.000 € se l'impresa non è una SRL (per esempio ditta individuale, professionista o società di persone). Fino a 100.000 € se l'impresa è una SRL." } },
         { "@type": "Question", "name": "Quanto garantisce lo Stato?", "acceptedAnswer": { "@type": "Answer", "text": "L'80% del finanziamento fino a 50.000 € e il 60% del finanziamento fino a 100.000 €." } },
         { "@type": "Question", "name": "Devo dare garanzie alla banca?", "acceptedAnswer": { "@type": "Answer", "text": "Fino a 50.000 € le banche non chiedono garanzie reali al richiedente, perché l'80% è garantito dallo Stato." } },
         { "@type": "Question", "name": "In quanto tempo devo restituire il prestito?", "acceptedAnswer": { "@type": "Answer", "text": "Al massimo in 10 anni." } },
-        { "@type": "Question", "name": "In quanto tempo arrivano i soldi?", "acceptedAnswer": { "@type": "Answer", "text": "La verifica di bancabilità arriva entro 20 giorni dalla domanda. Se è positiva, i soldi arrivano sul conto aziendale entro 3 mesi al massimo." } },
-        { "@type": "Question", "name": "Quali documenti servono a una persona fisica?", "acceptedAnswer": { "@type": "Answer", "text": "Documento d'identità, codice fiscale e stato di famiglia, più numero di telefono ed email." } },
-        { "@type": "Question", "name": "Quali documenti servono a un'azienda?", "acceptedAnswer": { "@type": "Answer", "text": "Documento d'identità dell'amministratore, visura camerale e ultimo bilancio se presente, più numero di telefono ed email." } },
-        { "@type": "Question", "name": "Chi decide se posso avere il credito?", "acceptedAnswer": { "@type": "Answer", "text": "La verifica di possibilità di accesso al credito è fatta dall'ente erogatore sulla base dei documenti inviati." } }
+        { "@type": "Question", "name": "In quanto tempo arrivano i soldi?", "acceptedAnswer": { "@type": "Answer", "text": "La verifica di bancabilità arriva entro 20 giorni dalla domanda presentata all'ente erogatore. Se è positiva, i soldi arrivano sul conto aziendale entro 3 mesi al massimo." } },
+        { "@type": "Question", "name": "Quali documenti servono?", "acceptedAnswer": { "@type": "Answer", "text": "Persona fisica: documento d'identità, codice fiscale e stato di famiglia. Azienda: documento d'identità dell'amministratore, visura camerale e ultimo bilancio se presente. In tutti e due i casi servono numero di telefono ed email." } },
+        { "@type": "Question", "name": "Questo sito raccoglie domande di microcredito?", "acceptedAnswer": { "@type": "Answer", "text": "No. Job Academy srl è uno sportello informativo: ti spiega come funziona il microcredito e ti orienta. La domanda vera e propria si presenta all'ente erogatore, che fa la verifica di accesso al credito." } }
       ]
     }
   ]
@@ -75,31 +80,31 @@
 </script>
 </head>
 <body>
-<a class="skip" href="#richiesta">Vai al modulo di richiesta</a>
+<a class="skip" href="#informazioni">Vai al modulo per chiedere informazioni</a>
 <header class="nav">
   <div class="wrap">
     <a class="brand" href="#top" aria-label="Job Academy, torna all'inizio"><span class="brand-mark" aria-hidden="true">JA</span>Job Academy<span class="brand-sub"> · Microcredito</span></a>
     <nav class="nav-links" aria-label="Sezioni">
       <a href="#cosa-e">Cos'è</a><a href="#caratteristiche">Caratteristiche</a><a href="#tempi">Tempi</a><a href="#documenti">Documenti</a><a href="#domande">Domande</a><a href="#contatti">Contatti</a>
     </nav>
-    <a class="btn btn-sm" href="#richiesta">Richiedi la verifica</a>
+    <a class="btn btn-sm" href="#informazioni">Chiedi informazioni</a>
   </div>
 </header>
 
 <main id="top">
   <section class="hero">
     <div class="wrap">
-      <p class="kicker" style="color:#cfe0ff">Microcredito con garanzia dello Stato</p>
-      <h1>Il credito per la tua attività, fino a 100.000 €</h1>
-      <p class="lead">Lo Stato fa da garante. Fino a 50.000 € la banca non ti chiede garanzie reali. Hai fino a 10 anni per restituire il prestito.</p>
+      <p class="kicker" style="color:#cfe0ff">Sportello informativo sul microcredito</p>
+      <h1>Microcredito per la tua attività, fino a 100.000 €</h1>
+      <p class="lead">Lo Stato fa da garante. Fino a 50.000 € la banca non ti chiede garanzie reali. Hai fino a 10 anni per restituire il prestito. Ti spieghiamo come funziona, gratis.</p>
       <div class="hero-ctas">
-        <a class="btn btn-light" href="#richiesta">Richiedi la verifica</a>
+        <a class="btn btn-light" href="#informazioni">Chiedi informazioni</a>
         <a class="btn btn-glass" href="https://wa.me/393501591719?text=Ciao%2C%20vorrei%20informazioni%20sul%20microcredito" rel="noopener">Scrivici su WhatsApp</a>
       </div>
       <div class="hero-facts">
+        <div class="glass"><b>75.000 €</b>per ditte individuali, professionisti, società di persone</div>
+        <div class="glass"><b>100.000 €</b>per le SRL</div>
         <div class="glass"><b>80%</b>garantito dallo Stato fino a 50.000 €</div>
-        <div class="glass"><b>20 giorni</b>per la verifica di bancabilità</div>
-        <div class="glass"><b>3 mesi</b>al massimo per avere i soldi</div>
       </div>
     </div>
   </section>
@@ -113,7 +118,7 @@
       <div class="reveal">
         <p class="lead">Il microcredito è un finanziamento per chi vuole avviare o far crescere un'attività.</p>
         <p>Lo Stato fa da garante su una parte del prestito. Per questo la banca può dare i soldi anche a chi non ha case, terreni o altri beni da offrire come garanzia.</p>
-        <p class="muted">Puoi fare domanda come persona fisica, se vuoi avviare un'attività, oppure come azienda già esistente.</p>
+        <p class="muted">Job Academy srl è uno <strong>sportello informativo</strong>: ti spieghiamo le regole e ti diciamo quali documenti preparare. La domanda di finanziamento si presenta all'ente erogatore.</p>
       </div>
     </div>
   </section>
@@ -121,11 +126,12 @@
   <section id="caratteristiche" class="soft">
     <div class="wrap">
       <p class="kicker reveal">Caratteristiche</p>
-      <h2 class="reveal">Le regole in cinque numeri</h2>
-      <div class="nums">
-        <div class="num reveal"><b>80%</b>Garanzia dello Stato sui finanziamenti fino a 50.000 €</div>
+      <h2 class="reveal">Le regole in sei numeri</h2>
+      <div class="nums nums6">
+        <div class="num reveal"><b>75.000 €</b>Importo massimo per imprese che non sono SRL: ditte individuali, professionisti, società di persone</div>
+        <div class="num reveal"><b>100.000 €</b>Importo massimo per le SRL</div>
+        <div class="num reveal"><b>80%</b>Garanzia dello Stato sui finanziamenti fino a 50.000 €. La banca non chiede garanzie reali</div>
         <div class="num reveal"><b>60%</b>Garanzia dello Stato sui finanziamenti fino a 100.000 €</div>
-        <div class="num reveal"><b>0</b>Garanzie reali chieste dalla banca fino a 50.000 €</div>
         <div class="num reveal"><b>10 anni</b>Tempo massimo per restituire il finanziamento</div>
         <div class="num reveal"><b>3 mesi</b>Tempo massimo per ricevere i soldi sul conto aziendale</div>
       </div>
@@ -137,8 +143,8 @@
       <p class="kicker reveal">Tempi</p>
       <h2 class="reveal">Come funziona, passo per passo</h2>
       <div class="steps">
-        <div class="step reveal"><span class="when">Oggi</span><h3>Invii la domanda</h3><p class="muted">Compili il modulo e carichi i documenti. Bastano pochi minuti.</p></div>
-        <div class="step reveal"><span class="when">Entro 20 giorni</span><h3>Verifica di bancabilità</h3><p class="muted">L'ente erogatore controlla i documenti e ti dice se puoi accedere al credito.</p></div>
+        <div class="step reveal"><span class="when">Oggi</span><h3>Chiedi informazioni</h3><p class="muted">Ci scrivi con il modulo o su WhatsApp. Ti spieghiamo se e come puoi accedere al microcredito.</p></div>
+        <div class="step reveal"><span class="when">Entro 20 giorni dalla domanda</span><h3>Verifica di bancabilità</h3><p class="muted">Presenti la domanda all'ente erogatore, che controlla i documenti e ti dice se puoi accedere al credito.</p></div>
         <div class="step reveal"><span class="when">Dopo l'esito positivo</span><h3>Istruttoria</h3><p class="muted">La banca prepara il finanziamento con la garanzia dello Stato.</p></div>
         <div class="step reveal"><span class="when">Entro 3 mesi</span><h3>Soldi sul conto</h3><p class="muted">Il finanziamento arriva sul conto aziendale. Lo restituisci in massimo 10 anni.</p></div>
       </div>
@@ -148,8 +154,8 @@
   <section id="documenti">
     <div class="wrap">
       <p class="kicker reveal">Documenti</p>
-      <h2 class="reveal">Cosa ti serve</h2>
-      <p class="lead reveal">I documenti servono per la verifica di possibilità di accesso al credito, fatta dall'ente erogatore.</p>
+      <h2 class="reveal">Cosa ti servirà</h2>
+      <p class="lead reveal">Questi documenti servono all'ente erogatore per verificare se puoi accedere al credito. Ti conviene prepararli subito.</p>
       <div class="grid2" style="margin-top:32px">
         <div class="card reveal">
           <h3>Persona fisica</h3>
@@ -163,11 +169,12 @@
     </div>
   </section>
 
-  <section id="richiesta" class="soft">
+  <section id="informazioni" class="soft">
     <div class="wrap">
-      <p class="kicker">Richiesta</p>
-      <h2>Richiedi la verifica</h2>
-      <p class="lead">Scegli chi sei, compila i campi e carica i documenti. Ti rispondiamo per email o su WhatsApp.</p>
+      <p class="kicker">Contatto informativo</p>
+      <h2>Chiedi informazioni</h2>
+      <p class="lead">Scegli chi sei e lasciaci i tuoi contatti. Ti rispondiamo per email o su WhatsApp con le informazioni sul tuo caso.</p>
+      <p class="notice"><strong>Non è una domanda di finanziamento.</strong> Questo modulo serve solo a chiedere informazioni allo sportello. La domanda di microcredito si presenta all'ente erogatore.</p>
       <div class="tabs" role="tablist" aria-label="Tipo di richiedente">
         <button class="tab" role="tab" id="tab-persona" aria-controls="panel-persona" aria-selected="true">Persona fisica</button>
         <button class="tab" role="tab" id="tab-azienda" aria-controls="panel-azienda" aria-selected="false" tabindex="-1">Azienda già esistente</button>
@@ -175,10 +182,13 @@
 
       <div class="panel card" id="panel-persona" role="tabpanel" aria-labelledby="tab-persona">
         <form action="https://formsubmit.co/info@jobacademyilma.com" method="POST" enctype="multipart/form-data" data-form>
-          <input type="hidden" name="_subject" value="Nuova richiesta microcredito – Persona fisica">
+          <input type="hidden" name="_subject" value="Richiesta di informazioni microcredito – Persona fisica">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_next" value="{{SITE_URL}}/grazie.html">
+          <input type="hidden" name="Tipo di contatto" value="Richiesta di informazioni (non è una domanda di finanziamento)">
           <input type="hidden" name="Tipo richiedente" value="Persona fisica">
+          <input type="hidden" name="Versione informativa privacy" value="{{DATE}}">
+          <input type="hidden" name="Data e ora consenso" value="" data-consent-time>
           <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <fieldset>
             <legend>I tuoi dati</legend>
@@ -188,33 +198,41 @@
             </div>
             <div class="row">
               <label>Codice fiscale<input type="text" name="Codice fiscale" maxlength="16" pattern="[A-Za-z0-9]{16}" title="16 caratteri, lettere e numeri" autocapitalize="characters" required></label>
-              <label>Importo che vorresti chiedere <span class="opt">(facoltativo)</span><input type="number" name="Importo richiesto (EUR)" min="1000" max="100000" step="500" inputmode="numeric" placeholder="es. 30000"></label>
+              <label>Importo che ti interessa <span class="opt">(facoltativo)</span><input type="number" name="Importo di interesse (EUR)" min="1000" max="100000" step="500" inputmode="numeric" placeholder="es. 30000"></label>
             </div>
             <div class="row">
               <label>Telefono<input type="tel" name="Telefono" autocomplete="tel" placeholder="+39 ..." required></label>
               <label>Email<input type="email" name="email" autocomplete="email" required></label>
             </div>
-            <label>Che attività vuoi avviare? <span class="opt">(facoltativo)</span><textarea name="Progetto"></textarea></label>
+            <label>Che attività vuoi avviare? <span class="opt">(facoltativo)</span><textarea name="Attività"></textarea></label>
           </fieldset>
           <fieldset>
-            <legend>Documenti</legend>
-            <label class="file">Documento d'identità (fronte e retro)<input type="file" name="attachment_documento_identita" accept=".pdf,.jpg,.jpeg,.png" multiple required><small>PDF, JPG o PNG</small></label>
-            <label class="file">Codice fiscale (tessera sanitaria)<input type="file" name="attachment_codice_fiscale" accept=".pdf,.jpg,.jpeg,.png" required><small>PDF, JPG o PNG</small></label>
-            <label class="file">Stato di famiglia<input type="file" name="attachment_stato_famiglia" accept=".pdf,.jpg,.jpeg,.png" required><small>PDF, JPG o PNG. Puoi chiederlo al Comune o scaricarlo da ANPR.</small></label>
+            <legend>Documenti <span class="opt">(facoltativi)</span></legend>
+            <p class="form-note" style="margin:0">Se li alleghi possiamo darti informazioni più precise sul tuo caso. Puoi anche mandarli dopo.</p>
+            <label class="file">Documento d'identità (fronte e retro)<input type="file" name="attachment_documento_identita" accept=".pdf,.jpg,.jpeg,.png" multiple><small>PDF, JPG o PNG</small></label>
+            <label class="file">Codice fiscale (tessera sanitaria)<input type="file" name="attachment_codice_fiscale" accept=".pdf,.jpg,.jpeg,.png"><small>PDF, JPG o PNG</small></label>
+            <label class="file">Stato di famiglia<input type="file" name="attachment_stato_famiglia" accept=".pdf,.jpg,.jpeg,.png"><small>PDF, JPG o PNG. Puoi chiederlo al Comune o scaricarlo da ANPR.</small></label>
           </fieldset>
-          <label class="check"><input type="checkbox" name="Consenso privacy" value="Sì" required><span>Ho letto l'<a href="privacy.html">informativa privacy</a> e acconsento al trattamento dei miei dati e documenti per la verifica di accesso al credito.</span></label>
+          <div class="gdpr">
+            <p><strong>Informativa breve.</strong> Titolare: Job Academy srl, Via Stefano Canzio 50r, Genova, P.IVA 03071340990. Usiamo i tuoi dati solo per risponderti sul microcredito. Li conserviamo per 24 mesi dall'ultimo contatto, oppure per 10 anni se diventi nostro cliente (obblighi civilistici e fiscali). Puoi chiedere accesso, correzione o cancellazione a info@jobacademyilma.com. <a href="privacy.html" target="_blank" rel="noopener">Informativa completa</a>.</p>
+            <label class="check"><input type="checkbox" name="Consenso trattamento dati (obbligatorio)" value="Sì, dato" required><span>Ho letto l'<a href="privacy.html" target="_blank" rel="noopener">informativa privacy</a> e acconsento al trattamento dei miei dati personali, e dei documenti se li allego, per ricevere informazioni sul microcredito. <em>(obbligatorio)</em></span></label>
+            <label class="check"><input type="checkbox" name="Consenso inoltro all'ente erogatore (facoltativo)" value="Sì, dato"><span>Acconsento che i miei dati e documenti siano inoltrati all'ente erogatore, se lo chiederò, per una verifica di accesso al credito. <em>(facoltativo)</em></span></label>
+          </div>
           <p class="err" aria-live="polite"></p>
-          <div><button class="btn" type="submit">Invia la richiesta</button></div>
-          <p class="form-note">Totale allegati: massimo 10 MB. Inviare la domanda non garantisce il finanziamento: la decisione spetta all'ente erogatore.</p>
+          <div><button class="btn" type="submit">Invia la richiesta di informazioni</button></div>
+          <p class="form-note">Allegati: massimo 10 MB in totale.</p>
         </form>
       </div>
 
       <div class="panel card" id="panel-azienda" role="tabpanel" aria-labelledby="tab-azienda" hidden>
         <form action="https://formsubmit.co/info@jobacademyilma.com" method="POST" enctype="multipart/form-data" data-form>
-          <input type="hidden" name="_subject" value="Nuova richiesta microcredito – Azienda">
+          <input type="hidden" name="_subject" value="Richiesta di informazioni microcredito – Azienda">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_next" value="{{SITE_URL}}/grazie.html">
+          <input type="hidden" name="Tipo di contatto" value="Richiesta di informazioni (non è una domanda di finanziamento)">
           <input type="hidden" name="Tipo richiedente" value="Azienda già esistente">
+          <input type="hidden" name="Versione informativa privacy" value="{{DATE}}">
+          <input type="hidden" name="Data e ora consenso" value="" data-consent-time>
           <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <fieldset>
             <legend>Dati dell'azienda</legend>
@@ -223,25 +241,34 @@
               <label>Partita IVA<input type="text" name="Partita IVA" inputmode="numeric" maxlength="11" pattern="[0-9]{11}" title="11 cifre" required></label>
             </div>
             <div class="row">
+              <label>Forma giuridica<select name="Forma giuridica" required><option value="">Scegli…</option><option>SRL o SRLS (fino a 100.000 €)</option><option>Ditta individuale (fino a 75.000 €)</option><option>Libero professionista (fino a 75.000 €)</option><option>Società di persone: SNC, SAS (fino a 75.000 €)</option><option>Altro</option></select></label>
               <label>Nome e cognome dell'amministratore<input type="text" name="Amministratore" autocomplete="name" required></label>
-              <label>Importo che vorresti chiedere <span class="opt">(facoltativo)</span><input type="number" name="Importo richiesto (EUR)" min="1000" max="100000" step="500" inputmode="numeric" placeholder="es. 50000"></label>
             </div>
             <div class="row">
               <label>Telefono<input type="tel" name="Telefono" autocomplete="tel" placeholder="+39 ..." required></label>
               <label>Email<input type="email" name="email" autocomplete="email" required></label>
             </div>
+            <div class="row">
+              <label>Importo che ti interessa <span class="opt">(facoltativo)</span><input type="number" name="Importo di interesse (EUR)" min="1000" max="100000" step="500" inputmode="numeric" placeholder="es. 50000"></label>
+              <span></span>
+            </div>
             <label>A cosa ti servono i soldi? <span class="opt">(facoltativo)</span><textarea name="Uso del finanziamento"></textarea></label>
           </fieldset>
           <fieldset>
-            <legend>Documenti</legend>
-            <label class="file">Documento d'identità dell'amministratore (fronte e retro)<input type="file" name="attachment_documento_amministratore" accept=".pdf,.jpg,.jpeg,.png" multiple required><small>PDF, JPG o PNG</small></label>
-            <label class="file">Visura camerale<input type="file" name="attachment_visura_camerale" accept=".pdf,.jpg,.jpeg,.png" required><small>PDF, recente</small></label>
+            <legend>Documenti <span class="opt">(facoltativi)</span></legend>
+            <p class="form-note" style="margin:0">Se li alleghi possiamo darti informazioni più precise. Puoi anche mandarli dopo.</p>
+            <label class="file">Documento d'identità dell'amministratore (fronte e retro)<input type="file" name="attachment_documento_amministratore" accept=".pdf,.jpg,.jpeg,.png" multiple><small>PDF, JPG o PNG</small></label>
+            <label class="file">Visura camerale<input type="file" name="attachment_visura_camerale" accept=".pdf,.jpg,.jpeg,.png"><small>PDF, recente</small></label>
             <label class="file">Ultimo bilancio <span class="opt">(se presente)</span><input type="file" name="attachment_ultimo_bilancio" accept=".pdf,.jpg,.jpeg,.png"><small>PDF. Se l'azienda è nuova puoi lasciarlo vuoto.</small></label>
           </fieldset>
-          <label class="check"><input type="checkbox" name="Consenso privacy" value="Sì" required><span>Ho letto l'<a href="privacy.html">informativa privacy</a> e acconsento al trattamento dei dati e dei documenti per la verifica di accesso al credito.</span></label>
+          <div class="gdpr">
+            <p><strong>Informativa breve.</strong> Titolare: Job Academy srl, Via Stefano Canzio 50r, Genova, P.IVA 03071340990. Usiamo i dati solo per rispondere sul microcredito. Li conserviamo per 24 mesi dall'ultimo contatto, oppure per 10 anni se l'azienda diventa nostra cliente (obblighi civilistici e fiscali). Puoi chiedere accesso, correzione o cancellazione a info@jobacademyilma.com. <a href="privacy.html" target="_blank" rel="noopener">Informativa completa</a>.</p>
+            <label class="check"><input type="checkbox" name="Consenso trattamento dati (obbligatorio)" value="Sì, dato" required><span>Ho letto l'<a href="privacy.html" target="_blank" rel="noopener">informativa privacy</a> e acconsento al trattamento dei dati personali, e dei documenti se li allego, per ricevere informazioni sul microcredito. <em>(obbligatorio)</em></span></label>
+            <label class="check"><input type="checkbox" name="Consenso inoltro all'ente erogatore (facoltativo)" value="Sì, dato"><span>Acconsento che i dati e i documenti siano inoltrati all'ente erogatore, se lo chiederò, per una verifica di accesso al credito. <em>(facoltativo)</em></span></label>
+          </div>
           <p class="err" aria-live="polite"></p>
-          <div><button class="btn" type="submit">Invia la richiesta</button></div>
-          <p class="form-note">Totale allegati: massimo 10 MB. Inviare la domanda non garantisce il finanziamento: la decisione spetta all'ente erogatore.</p>
+          <div><button class="btn" type="submit">Invia la richiesta di informazioni</button></div>
+          <p class="form-note">Allegati: massimo 10 MB in totale.</p>
         </form>
       </div>
     </div>
@@ -252,12 +279,13 @@
       <p class="kicker">Domande frequenti</p>
       <h2>Risposte brevi</h2>
       <details><summary>Che cos'è il microcredito?</summary><p>È un finanziamento per chi vuole avviare o far crescere un'attività. Lo Stato fa da garante su una parte del prestito, così la banca può concederlo anche a chi non ha garanzie proprie.</p></details>
+      <details><summary>Quanto posso chiedere?</summary><p>Fino a 75.000 € se l'impresa non è una SRL (per esempio ditta individuale, professionista o società di persone). Fino a 100.000 € se l'impresa è una SRL.</p></details>
       <details><summary>Quanto garantisce lo Stato?</summary><p>L'80% del finanziamento fino a 50.000 € e il 60% del finanziamento fino a 100.000 €.</p></details>
       <details><summary>Devo dare garanzie alla banca?</summary><p>Fino a 50.000 € le banche non chiedono garanzie reali al richiedente, perché l'80% è garantito dallo Stato.</p></details>
       <details><summary>In quanto tempo devo restituire il prestito?</summary><p>Al massimo in 10 anni.</p></details>
-      <details><summary>In quanto tempo arrivano i soldi?</summary><p>La verifica di bancabilità arriva entro 20 giorni dalla domanda. Se è positiva, i soldi arrivano sul conto aziendale entro 3 mesi al massimo.</p></details>
+      <details><summary>In quanto tempo arrivano i soldi?</summary><p>La verifica di bancabilità arriva entro 20 giorni dalla domanda presentata all'ente erogatore. Se è positiva, i soldi arrivano sul conto aziendale entro 3 mesi al massimo.</p></details>
       <details><summary>Quali documenti servono?</summary><p>Persona fisica: documento d'identità, codice fiscale e stato di famiglia. Azienda: documento d'identità dell'amministratore, visura camerale e ultimo bilancio, se presente. In tutti e due i casi servono numero di telefono ed email.</p></details>
-      <details><summary>Chi decide se posso avere il credito?</summary><p>La verifica di possibilità di accesso al credito è fatta dall'ente erogatore sulla base dei documenti che invii.</p></details>
+      <details><summary>Il vostro modulo è una domanda di microcredito?</summary><p>No. Job Academy srl è uno sportello informativo: ti spieghiamo come funziona il microcredito e ti orientiamo. La domanda vera e propria si presenta all'ente erogatore, che fa la verifica di accesso al credito.</p></details>
     </div>
   </section>
 
@@ -265,7 +293,7 @@
     <div class="wrap">
       <p class="kicker">Contatti</p>
       <h2>Parliamone</h2>
-      <p class="lead">Hai un dubbio prima di inviare i documenti? Scrivici.</p>
+      <p class="lead">Hai un dubbio? Scrivici: lo sportello informativo è gratuito.</p>
       <div class="contact">
         <a class="btn" href="mailto:info@jobacademyilma.com?subject=Informazioni%20microcredito">info@jobacademyilma.com</a>
         <a class="btn btn-outline" href="https://wa.me/393501591719?text=Ciao%2C%20vorrei%20informazioni%20sul%20microcredito" rel="noopener">WhatsApp +39 350 159 1719</a>
@@ -276,9 +304,10 @@
 
 <footer>
   <div class="wrap">
-    <strong style="color:#fff">Job Academy · Microcredito</strong>
+    <strong style="color:#fff">Job Academy srl · Sportello informativo microcredito</strong>
+    <span>Via Stefano Canzio 50r, Genova · P.IVA 03071340990 · <a href="https://www.jobacademysrl.com/">www.jobacademysrl.com</a></span>
     <span>Email <a href="mailto:info@jobacademyilma.com">info@jobacademyilma.com</a> · WhatsApp <a href="https://wa.me/393501591719" rel="noopener">+39 350 159 1719</a></span>
-    <span>La verifica di accesso al credito e la concessione del finanziamento spettano all'ente erogatore. Le condizioni descritte sono indicative e possono cambiare.</span>
+    <span>Job Academy srl fornisce solo informazioni: non raccoglie domande di finanziamento e non concede credito. La verifica di accesso al credito e la concessione del finanziamento spettano all'ente erogatore. Le condizioni descritte possono cambiare.</span>
     <span><a href="privacy.html">Informativa privacy</a> · <a href="llms.txt">llms.txt</a></span>
   </div>
 </footer>

@@ -15,8 +15,11 @@ for (const f of readdirSync('src')) {
   else copyFileSync(src, dst);
 }
 writeFileSync(path.join('docs', '.nojekyll'), '');
+// custom domain (GitHub Pages reads docs/CNAME)
+const host = new URL(url).host;
+if (!host.endsWith('github.io')) writeFileSync(path.join('docs', 'CNAME'), host + '\n');
 writeFileSync(path.join('docs', '404.html'), readFileSync(path.join('docs', 'grazie.html'), 'utf8')
   .replace('Richiesta inviata |', 'Pagina non trovata |').replace('<p class="kicker" style="color:#cfe0ff">Richiesta inviata</p>', '<p class="kicker" style="color:#cfe0ff">Errore 404</p>')
-  .replace('Grazie, abbiamo ricevuto i tuoi documenti', 'Questa pagina non esiste')
-  .replace(/<p class="lead">[\s\S]*?<\/p>/, '<p class="lead">Torna alla home per leggere come funziona il microcredito e inviare la richiesta.</p>'));
+  .replace('Grazie, abbiamo ricevuto la tua richiesta', 'Questa pagina non esiste')
+  .replace(/<p class="lead">[\s\S]*?<\/p>/, '<p class="lead">Torna alla home per leggere come funziona il microcredito e chiedere informazioni.</p>'));
 console.log(`docs/ built for ${url}`);
