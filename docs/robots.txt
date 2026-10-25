@@ -33,4 +33,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://jobacademysrl.github.io/microcredito/sitemap.xml
+Sitemap: https://microcredito.jobacademysrl.com/sitemap.xml

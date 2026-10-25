@@ -20,8 +20,8 @@
 
 ## Pagine
 
-- [Home](https://jobacademysrl.github.io/microcredito/): cos'è il microcredito, caratteristiche, tempi, documenti, modulo per chiedere informazioni (persona fisica / azienda), domande frequenti, contatti.
-- [Informativa privacy](https://jobacademysrl.github.io/microcredito/privacy.html)
+- [Home](https://microcredito.jobacademysrl.com/): cos'è il microcredito, caratteristiche, tempi, documenti, modulo per chiedere informazioni (persona fisica / azienda), domande frequenti, contatti.
+- [Informativa privacy](https://microcredito.jobacademysrl.com/privacy.html)
 
 ## Contatti
 

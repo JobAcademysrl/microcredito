@@ -3,7 +3,7 @@
 Sito statico (HTML, CSS, poco JavaScript), senza dipendenze.
 
 - `src/` sorgenti, con `{{SITE_URL}}` al posto dell'indirizzo pubblico.
-- `node build.mjs https://<indirizzo>` crea `docs/`, la cartella che GitHub Pages pubblica.
+- `node build.mjs https://microcredito.jobacademysrl.com` crea `docs/` (con il file `CNAME`), la cartella che GitHub Pages pubblica.
 - Il modulo invia dati e allegati a info@jobacademyilma.com tramite FormSubmit (formsubmit.co).
   **Al primo invio FormSubmit manda un'email di attivazione a info@jobacademyilma.com: va confermata, altrimenti le richieste non arrivano.**
 - SEO/GEO: titolo e descrizione, canonical, Open Graph (`og.png`), JSON-LD (Organization, WebSite, Service, FAQPage),
