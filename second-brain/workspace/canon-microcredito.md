@@ -19,7 +19,9 @@ Aggiornato al: 25/10/2026.
 | Contatti | info@jobacademyilma.com · WhatsApp +39 350 159 1719 | llms.txt |
 | Sito aziendale | https://www.jobacademysrl.com/ | llms.txt |
 
-**Decisione aperta:** il network raccoglie i documenti dei clienti, mentre il sito dice che Job Academy non raccoglie domande. Va deciso il perimetro dell'attività e allineata la comunicazione pubblica (vedi §5 e §6).
+**Deciso (25/10/2026):** il network raccoglie i documenti dei clienti. La domanda di finanziamento resta del cliente verso l'ente erogatore, quindi il sito resta corretto.
+
+**Come guadagna il network:** provvigioni solo su business plan, servizi accessori e assistenza pre e post erogazione. Mai sull'erogazione o sull'importo erogato.
 
 ## §2 Il microcredito (come descritto sul sito)
 
@@ -40,18 +42,21 @@ Aggiornato al: 25/10/2026.
 
 Struttura gerarchica: ogni agente ha un livello superiore e una squadra diretta (Notion: Network agenti, relazione "Livello superiore" / "Squadra diretta").
 
-| Livello | Ruolo (provvisorio) | Contatto col cliente |
-| --- | --- | --- |
-| Livello 1 | Vertice del network | No |
-| Livello 2 | Coordinamento | No |
-| Livello 3 | Gestione delle squadre | Occasionale |
-| Livello 4 | Agente sul territorio | Sì: primo contatto e raccolta documenti |
+| Livello | Nome | Ruolo | Contatto col cliente |
+| --- | --- | --- | --- |
+| 1 | Director | Vertice del network | No |
+| 2 | Area manager | Coordina un'area | No |
+| 3 | Senior | Guida una squadra di junior | Occasionale |
+| 4 | Junior | Agente sul territorio | Sì: primo contatto e raccolta documenti |
 
-- [lacuna] Nomi dei livelli usati in azienda e compiti precisi.
+Provvigioni: solo su business plan, servizi accessori e assistenza pre e post erogazione, mai sull'erogazione.
+
+**Deciso (25/10/2026):** iscrizione OAM non necessaria, proprio perché il network non è pagato sull'erogazione (vedi `normative/normativa-agenti-oam.md`).
+
+- [lacuna] Compiti precisi di ciascun livello (i ruoli in tabella sono provvisori).
 - [lacuna] Elenco degli agenti e chi riporta a chi.
-- [lacuna] Compensi e provvigioni per livello.
+- [lacuna] Importi o percentuali delle provvigioni per servizio e ripartizione tra i livelli.
 - [lacuna] Percorso di formazione.
-- **Decisione aperta:** quali livelli devono essere iscritti agli elenchi OAM (vedi `normative/normativa-agenti-oam.md`).
 
 Dettaglio: `network-livelli.md`.
 
@@ -80,7 +85,8 @@ Documenti utili (dal sito):
 Regola: nessun documento prima dell'informativa privacy e del consenso.
 
 - [lacuna] Enti erogatori con cui si lavora.
-- [lacuna] Chi svolge i servizi di assistenza e monitoraggio previsti per il microcredito.
+Servizi del network al cliente (campo "Servizi" in Notion): business plan, servizi accessori, assistenza pre-erogazione, assistenza post-erogazione. Coprono anche l'assistenza e il monitoraggio previsti per il microcredito.
+
 - **Decisione aperta:** ruoli privacy di agenti e punti informativi, archivio unico dei documenti, tempi di conservazione.
 
 Dettaglio: `percorso-cliente.md`, `documenti-checklist.md`.
@@ -111,10 +117,9 @@ Clienti in lavorazione · Pratiche inviate all'ente erogatore · Pratiche erogat
 
 L'elenco vivo è nel database Notion "Lacune e dati da completare". Priorità alta:
 
-1. Perimetro: raccolta documenti o solo informazione (§1, §5).
-2. Inquadramento OAM del network (§3, §6).
-3. Ruoli privacy e archivio documenti (§5, §6).
-4. Nomi e compiti dei 4 livelli (§3).
-5. Elenco agenti (§3).
-6. Elenco punti informativi (§4).
-7. Fonte normativa degli importi (§2, §6).
+1. Ruoli privacy e archivio documenti (§5, §6).
+2. Elenco agenti (§3).
+3. Elenco punti informativi (§4).
+4. Fonte normativa degli importi (§2, §6).
+
+Chiuse il 25/10/2026: raccolta documenti (sì), OAM (non necessaria), nomi dei livelli (Director, Area manager, Senior, Junior), servizi di assistenza (li svolge il network).

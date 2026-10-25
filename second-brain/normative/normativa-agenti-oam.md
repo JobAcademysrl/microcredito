@@ -7,4 +7,10 @@
 
 **Cosa dice per noi.** Chi promuove o colloca finanziamenti per conto di intermediari, o mette in relazione clienti e banche, deve essere iscritto negli elenchi OAM.
 
-**Impatto operativo.** Decidere con un consulente se il network a 4 livelli svolge solo informazione o anche promozione/mediazione, e di conseguenza quali livelli vanno iscritti. Il campo "Iscrizione OAM" nella scheda agente resta "Da verificare" fino alla decisione.
+**Decisione aziendale (25/10/2026).** Il network non si iscrive all'OAM: non è pagato sull'erogazione, ma solo su business plan, servizi accessori e assistenza pre e post erogazione.
+
+**Impatto operativo.**
+
+- Nessun compenso legato all'erogazione o all'importo erogato, né dal cliente né dall'ente erogatore.
+- Contratti degli agenti e fatture devono descrivere i servizi resi, non l'esito del finanziamento.
+- Se il modello delle provvigioni cambia, la decisione va rivista.

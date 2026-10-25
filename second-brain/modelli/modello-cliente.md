@@ -7,6 +7,7 @@
 - Progetto:
 - Importo richiesto (max 75.000 €, o 100.000 € se SRL):
 - Canale: Sito web / WhatsApp / Punto informativo / Agente / Passaparola
+- Servizi: Business plan / Servizi accessori / Assistenza pre-erogazione / Assistenza post-erogazione
 - Agente:
 - Punto informativo:
 - Regione:
