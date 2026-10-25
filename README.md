@@ -10,4 +10,5 @@ Sito statico (HTML, CSS, poco JavaScript), senza dipendenze.
   `sitemap.xml`, `robots.txt` aperto anche ai crawler AI, `llms.txt` con i fatti chiave.
 - Stile: token derivati dalle misure di reverse-brand (palette neutra, bottoni a pillola, card con raggio 20px, base 4px, bande chiare/scure). Nessun logo, font o immagine di terzi.
 
-Da completare prima della pubblicazione: i dati del titolare in `src/privacy.html` (`[RAGIONE SOCIALE]`, `[INDIRIZZO]`, `[PARTITA IVA]`, `[DURATA]`, `[DATA]`).
+Pubblicato su https://microcredito.jobacademysrl.com (GitHub Pages, repository JobAcademysrl/microcredito, cartella `docs/`).
+DNS su IONOS: CNAME `microcredito` → `jobacademysrl.github.io`.
