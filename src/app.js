@@ -92,16 +92,44 @@
   var nav = d.querySelector('.nav'), hero = d.querySelector('.hero'), heroIn = hero && hero.querySelector('.wrap');
   var steps = d.querySelector('.steps'), stepEls = steps ? [].slice.call(steps.querySelectorAll('.step')) : [];
   if (steps) { var line = d.createElement('div'); line.className = 'steps-line'; line.innerHTML = '<i></i>'; steps.prepend(line); }
+  // marquee: duplicate the regions so the loop is seamless
+  d.querySelectorAll('.track').forEach(function (t) { t.innerHTML += t.innerHTML; });
+
+  // service cards: illustrations animate in; cards behind the stack shrink a little
+  var cards = [].slice.call(d.querySelectorAll('.scard'));
+  cards.forEach(function (c) { onVisible(c, function () { c.classList.add('in'); }, '0px 0px -20% 0px'); });
+
+  // hero phone follows the pointer (desktop only)
+  var phone = d.querySelector('[data-tilt]');
+  if (phone && !reduce && matchMedia('(hover: hover)').matches) {
+    hero.addEventListener('pointermove', function (e) {
+      var r = hero.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5;
+      phone.style.setProperty('--ry', (x * 16 - 6).toFixed(1) + 'deg');
+      phone.style.setProperty('--rx', (-y * 10 + 3).toFixed(1) + 'deg');
+    });
+    hero.addEventListener('pointerleave', function () { phone.style.removeProperty('--ry'); phone.style.removeProperty('--rx'); });
+  }
+
   var ticking = false;
   function update() {
     ticking = false;
     var y = window.scrollY, vh = window.innerHeight;
     if (nav) nav.classList.toggle('scrolled', y > 8);
-    if (!reduce && heroIn) {
+    // on one-column layouts the phone sits low in the hero: no fade there, or it would be faded when reached
+    if (!reduce && heroIn && innerWidth <= 960) { heroIn.style.transform = ''; heroIn.style.opacity = ''; }
+    else if (!reduce && heroIn) {
       var p = Math.min(1, y / hero.offsetHeight);
       heroIn.style.transform = 'translate3d(0,' + (p * 80).toFixed(1) + 'px,0) scale(' + (1 - p * 0.06).toFixed(3) + ')';
       heroIn.style.opacity = (1 - p * 0.9).toFixed(3);
     }
+    if (!reduce) cards.forEach(function (c, i) {
+      var next = cards[i + 1];
+      if (!next) return;
+      var top = c.getBoundingClientRect().top, nt = next.getBoundingClientRect().top;
+      var p = Math.max(0, Math.min(1, 1 - (nt - top) / c.offsetHeight));
+      c.style.transform = 'scale(' + (1 - p * 0.06).toFixed(3) + ')';
+      c.style.filter = 'brightness(' + (1 - p * 0.25).toFixed(3) + ')';
+    });
     if (steps) {
       var r = steps.getBoundingClientRect();
       var prog = reduce ? 1 : Math.max(0, Math.min(1, (vh * 0.75 - r.top) / (r.height + vh * 0.25)));
