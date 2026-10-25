@@ -5,6 +5,7 @@ Stessa struttura del second brain di Aurora Sistemi, adattata a Job Academy e al
 - **Canon** (`workspace/canon-microcredito.md`): i fatti fissi, in sezioni numerate (§1–§8). È la fonte di verità. Le altre note lo citano, non lo ripetono.
 - **Note tematiche**: `network-livelli.md`, `punti-informativi.md`, `percorso-cliente.md`, `documenti-checklist.md`.
 - **Normative** (`normative/`): una nota per norma, con riferimento, cosa dice per noi, impatto operativo e stato di verifica.
+- **Privacy** (`privacy/`): lettera di autorizzazione, nomina art. 28, istruzioni operative, conservazione, registro dei trattamenti.
 - **Modelli** (`modelli/`): schede vuote per agente, cliente, punto informativo e normativa.
 - **Cruscotto Notion** "Cruscotto Microcredito": i database operativi (Network agenti, Punti informativi, Clienti, Documenti clienti, Normative di riferimento, KPI, Lacune e dati da completare) con relazioni e grafici.
 

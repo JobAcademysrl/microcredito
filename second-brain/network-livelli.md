@@ -26,6 +26,11 @@ Ogni scheda agente ha:
 3. I documenti si caricano solo nel database Notion "Documenti clienti", mai via chat personale o email privata.
 4. Un agente "Sospeso" o "Cessato" non vede più i clienti: riassegnarli al livello superiore.
 
+## Rapporto di collaborazione e privacy
+
+- I collaboratori sono esterni: **prestazione occasionale** (senza partita IVA) fino a 5.000 € di compensi l'anno, poi **partita IVA**. Su Notion: "Tipo rapporto", "Compensi anno" e l'avviso "Soglia 5.000 €" (Vicina da 4.000 €, Superata da 5.000 €). Da confermare con il commercialista: l'obbligo di partita IVA dipende dall'abitualità, non solo dall'importo.
+- Prima di raccogliere documenti ogni collaboratore firma il documento privacy (`privacy/`): lettera di autorizzazione se senza partita IVA, nomina art. 28 se con partita IVA, più le istruzioni operative. Quando apre la partita IVA, firma la nomina art. 28.
+
 ## Provvigioni e OAM
 
 - Le provvigioni maturano solo su: **business plan**, **servizi accessori**, **assistenza pre-erogazione**, **assistenza post-erogazione**.

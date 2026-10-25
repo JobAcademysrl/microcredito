@@ -58,6 +58,8 @@ Provvigioni: solo su business plan, servizi accessori e assistenza pre e post er
 - [lacuna] Importi o percentuali delle provvigioni per servizio e ripartizione tra i livelli.
 - [lacuna] Percorso di formazione.
 
+Rapporto dei collaboratori: esterni, senza partita IVA (prestazione occasionale) fino a 5.000 € di compensi l'anno, poi con partita IVA. [da verificare con il commercialista: l'obbligo di partita IVA dipende dall'abitualità, non solo dall'importo]
+
 Dettaglio: `network-livelli.md`.
 
 ## §4 Punti informativi su tutta Italia
@@ -87,7 +89,12 @@ Regola: nessun documento prima dell'informativa privacy e del consenso.
 - [lacuna] Enti erogatori con cui si lavora.
 Servizi del network al cliente (campo "Servizi" in Notion): business plan, servizi accessori, assistenza pre-erogazione, assistenza post-erogazione. Coprono anche l'assistenza e il monitoraggio previsti per il microcredito.
 
-- **Decisione aperta:** ruoli privacy di agenti e punti informativi, archivio unico dei documenti, tempi di conservazione.
+Privacy (bozze in `../privacy/`, da far verificare e firmare):
+
+- Job Academy srl è titolare; ogni collaboratore firma un documento prima di raccogliere dati.
+- Senza partita IVA → lettera di autorizzazione (art. 29 GDPR); con partita IVA → nomina a responsabile (art. 28 GDPR); per tutti le istruzioni operative.
+- Archivio unico: database Notion "Documenti clienti", accessi per persona.
+- Conservazione: 24 mesi dall'ultimo contatto senza servizi; 10 anni dalla fine del rapporto per i clienti (come l'informativa del sito).
 
 Dettaglio: `percorso-cliente.md`, `documenti-checklist.md`.
 
@@ -117,9 +124,10 @@ Clienti in lavorazione · Pratiche inviate all'ente erogatore · Pratiche erogat
 
 L'elenco vivo è nel database Notion "Lacune e dati da completare". Priorità alta:
 
-1. Ruoli privacy e archivio documenti (§5, §6).
-2. Elenco agenti (§3).
-3. Elenco punti informativi (§4).
-4. Fonte normativa degli importi (§2, §6).
+1. Privacy: verifica delle bozze, firme dei collaboratori, pubblicazione dell'informativa aggiornata (§5).
+2. Soglia 5.000 € e partita IVA dei collaboratori: verifica con il commercialista (§3).
+3. Elenco agenti (§3).
+4. Elenco punti informativi (§4).
+5. Fonte normativa degli importi (§2, §6).
 
 Chiuse il 25/10/2026: raccolta documenti (sì), OAM (non necessaria), nomi dei livelli (Director, Area manager, Senior, Junior), servizi di assistenza (li svolge il network).
