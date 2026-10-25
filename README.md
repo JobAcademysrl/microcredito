@@ -12,3 +12,7 @@ Sito statico (HTML, CSS, poco JavaScript), senza dipendenze.
 
 Pubblicato su https://microcredito.jobacademysrl.com (GitHub Pages, repository JobAcademysrl/microcredito, cartella `docs/`).
 DNS su IONOS: CNAME `microcredito` → `jobacademysrl.github.io`.
+
+## Second brain
+
+`second-brain/` contiene il canon e le note del microcredito (network agenti a 4 livelli, punti informativi, percorso cliente, documenti, normative). Non viene pubblicato dal sito (il build copia solo `src/`). I dati di clienti e agenti stanno solo nel cruscotto Notion: vedi `second-brain/README.md`.

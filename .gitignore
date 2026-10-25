@@ -1,2 +1,6 @@
 node_modules/
 .gh-login.txt
+# Second brain: i dati dei clienti e degli agenti non vanno mai nel repository (è pubblico)
+second-brain/clienti/
+second-brain/documenti-clienti/
+second-brain/agenti/
